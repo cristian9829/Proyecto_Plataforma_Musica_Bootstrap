@@ -1,0 +1,106 @@
+body{
+  background-image: url(../imagenes/fondo.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.contenedor-barra-navegacion{
+  background: #445063;
+  min-height: 30%;
+  padding: 5px;
+}
+
+.contenedor-logo{/*contenedor del logo*/
+  background-color:#9CA0A5;
+  width: 50%; 
+  border:1px solid black;
+}
+
+.logo{/*Estilos del logo de la pagina web*/
+  width: 100px;
+}
+
+.contenedor-redes-sociales{
+  background-color: rgba(124, 131, 141,0.2);
+  padding: 2px;
+}
+
+.redes-sociales{/*Tamaños de las redes sociales*/
+  width: 10%;
+}
+
+.nav{ /*Fondo barra de navegacion*/
+  background-color:#557BB2;
+}
+
+.contenedor-botones{/*contenedor de los botones*/
+  padding-top: 10px;
+  padding-bottom:5px; 
+}
+
+.botones{/*margen de los botones*/
+  margin-left: 30px;
+}
+
+.enlace{/*Tamaño de los botones manualmente*/
+  padding-left:25px;
+  padding-right:25px;
+}
+
+.contenedor-contenido{
+  margin-top: 20px;
+  padding: 5%;
+  background-color: rgba(92, 98, 104,0.8);
+  border:2px solid black;
+  width: 98%;
+}
+p{
+  color: white;
+  font-family:"PTsans";
+  font-size: 140%;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+}
+
+.titulo{
+  font-family:"Anton";
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.contenedor-contenido-post{
+  background-color:rgba(144, 150, 159,0.5);
+  border-radius:5px;
+  border: 2px solid grey;
+}
+
+.contenedor-imagen{
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.imagen-post{
+  width: 100%;
+}
+
+.post-2{
+  margin-top: 4%;
+}
+
+.usuario{
+  width: 40%;
+}
+
+.contenedor-buscar{
+  background-color: rgba(43, 68, 104,0.5);
+  margin-top: 20px;
+  border-left: 1px dashed black;
+}
+
+.botones-busqueda{
+  margin-top: 1%;
+}
+
+.contenedor-botones-busqueda{
+  background-color: black;
+  padding-bottom: 2%;
+}
